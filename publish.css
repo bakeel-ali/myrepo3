@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+   font-weight: 500;
+   margin: 0px;
+}
+body{
+    align-items: center;
+    /* background: #0b83fb; */
+}
+.content{
+padding-right: 10px; 
+   width: 60%;
+   margin: auto;
+   line-height: 30px;
+   background-color: #4ea2da;
+}
+ #num1,#num2{
+display: inline-block;
+margin-right: 10px;
+margin-left: 20px;
+}
+#lab{
+    display: none;
+}
+#lab4:checked ~ #lab{
+    display: block;
+}
+.textBox {
+    display: none;
+  }
+
+  #showText1:checked ~ #textBox1 {
+    display: block;
+  }
+
+  #showText2:checked ~ #textBox1,
+  #showText2:checked ~ #textBox2 {
+    display: block;
+  }
+
+  #showText3:checked ~ #textBox1,
+  #showText3:checked ~ #textBox2,
+  #showText3:checked ~ #textBox3 {
+    display: block;
+  }

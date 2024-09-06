@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: blanchedalmond; */
+    background-color: white;    
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+    margin: auto;    
+    word-wrap: break-word;
+}
+h3{
+    flex: 24%;
+    min-width: 24%;
+}
+.container1 h3{
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 243, 243);
+    /* background-color: rgb(2, 2, 78); */
+    background-color: rgb(36, 231, 231);
+    border: 2px solid black;
+    border-radius: 10px 0px 10px 10px;
+    box-shadow: 0 5px rgb(92, 89, 89);
+}
+.searches{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 255px;
+    margin: 5px 0px 5px 0px;
+    overflow: auto;
+}
+.container2{
+    position: relative;
+    flex: 48%;
+    max-width: 50%;
+    min-width: 23%;
+    height: 120px;
+    margin: 10px 0px 0px 10px;    
+    padding-right: 10px;
+    overflow: hidden;
+    /* background-color: chartreuse; */
+}
+.Title{
+    width: 100%;
+    height: 45%;
+    overflow: hidden;    
+}
+h4{
+    color: chartreuse;
+}
+.Description{
+    
+    width: 100%;
+    height: 55%;    
+    padding-top: 10px;
+    overflow: hidden;
+}
+@media (max-width:960px){
+    .container2{
+    height: 140px;    
+    }
+    .searches{
+    height: 295px;
+    }
+}
+@media (max-width:750px){
+    .container2{
+        position: relative;
+        flex: 98%;
+        max-width: 98%;
+        min-width: 93%;
+        height: 100px;        
+        border-radius: 10px;        
+    
+    }
+.container1 h3{
+    margin: 5px;
+    font-size: 20px;
+}
+}
+@media (max-width:530px){
+.container2{
+    position: relative;
+    flex: 98%;
+    max-width: 98%;    
+    height: 120px;
+    margin: 10px 10px 0px 15px;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+.container1 h3{
+    margin: 5px;
+    font-size: 15px;
+}
+} 
+a:visited ,a{
+    color:black;
+}
+h2{
+    margin:15px 10px 0 0 ;
+}
